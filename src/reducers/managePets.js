@@ -26,4 +26,4 @@ export function render(){
         return `<li>${pet.name}</li>`
       })
       container.innerHtml = `<ul>${petname.join(' ')}</ul>`
-}
+} 
